@@ -12,9 +12,8 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 
 - [x] Implement tank movement using WASD / arrow keys
 - [x] Implement turret rotation with mouse
-- [ ] Implement shooting projectiles (bullets/shells)
-- [ ] Implement health system
-- [ ] Implement respawn after death
+- [x] Implement shooting projectiles (bullets/shells)
+- [x] Implement health system
 
 ### 🤖 Enemy Tanks
 
@@ -45,19 +44,10 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 - [ ] Add hit and destruction sound effects
 - [ ] Add background music
 
----
-
-## 📂 Assets
-
-- [ ] Download and import Low Poly Tank Assets: [Link](https://dani567.itch.io/low-poly-tank-assets)
-- [ ] Organize assets into folders: Player, Enemies, Bullets, Effects, UI
-
----
-
 ## 🎥 Camera Setup
 
-- [ ] Position camera directly above player's tank (top-down view)
-- [ ] Lock camera movement to follow player tank
+- [x] Position camera directly above player's tank (top-down view)
+- [x] Lock camera movement to follow player tank
 
 ---
 
@@ -102,3 +92,11 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 - [ ] Test AI behaviors
 - [ ] Balance gameplay
 - [ ] Bug fixing
+
+---
+
+## Backlogs
+
+### 🚀 Player Tank
+
+- [ ] Implement respawn after death

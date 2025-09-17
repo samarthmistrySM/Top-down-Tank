@@ -18,7 +18,6 @@ public class TankTurretController : MonoBehaviour
         float rayDistance;
         if (helperPlane.Raycast(ray, out rayDistance))
         {
-            Debug.Log(rayDistance);
             Vector3 point = ray.GetPoint(rayDistance);
             Vector3 direction = point - transform.position;
             direction.y = 0f;
