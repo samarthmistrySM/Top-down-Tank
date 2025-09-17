@@ -10,8 +10,8 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 
 ### 🚀 Player Tank
 
-- [ ] Implement tank movement using WASD / arrow keys
-- [ ] Implement turret rotation with mouse
+- [x] Implement tank movement using WASD / arrow keys
+- [x] Implement turret rotation with mouse
 - [ ] Implement shooting projectiles (bullets/shells)
 - [ ] Implement health system
 - [ ] Implement respawn after death
