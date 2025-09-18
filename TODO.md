@@ -100,3 +100,9 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 ### 🚀 Player Tank
 
 - [ ] Implement respawn after death
+
+---
+
+## 🐞 Challenges
+
+1.  When firing, the bullet spawns too close to the tank body and collides with its own collider.
