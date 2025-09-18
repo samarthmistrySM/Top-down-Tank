@@ -17,20 +17,20 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 
 ### 🤖 Enemy Tanks
 
-- [ ] Implement basic AI: patrol or chase player
-- [ ] Implement enemy shooting at player when in range
-- [ ] Implement enemy health and destruction effects
+- [x] Implement basic AI: patrol or chase player
+- [x] Implement enemy shooting at player when in range
+- [x] Implement enemy health and destruction effects
 
 ### 🧠 Gameplay Mechanics
 
-- [ ] Implement collision detection (walls, bullets, tanks)
+- [x] Implement collision detection (walls, bullets, tanks)
 - [ ] Implement score system for destroyed enemies
 - [ ] Implement power-ups (health, rapid fire, etc.)
 - [ ] Implement level boundaries and obstacles
 
 ### 🖼️ UI Elements
 
-- [ ] Create health bar for player
+- [x] Create health bar for player
 - [ ] Create score counter
 - [ ] Create main menu
 - [ ] Create pause menu
@@ -55,27 +55,27 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 
 ### Phase 1 - Player Core
 
-- [ ] Tank movement
-- [ ] Turret rotation
-- [ ] Shooting mechanics
+- [x] Tank movement
+- [x] Turret rotation
+- [x] Shooting mechanics
 - [ ] Health system & respawn
 
 ### Phase 2 - Enemy Core
 
-- [ ] Enemy AI patrol & chase
-- [ ] Enemy shooting
-- [ ] Health and destruction
+- [x] Enemy AI patrol & chase
+- [x] Enemy shooting
+- [x] Health and destruction
 
 ### Phase 3 - Gameplay Mechanics
 
-- [ ] Collisions
+- [x] Collisions
 - [ ] Score system
 - [ ] Power-ups
 - [ ] Level boundaries & obstacles
 
 ### Phase 4 - UI & Feedback
 
-- [ ] Health bar
+- [x] Health bar
 - [ ] Score counter
 - [ ] Menus: main, pause, game over
 
@@ -88,7 +88,7 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 
 ### Phase 6 - Polish & Testing
 
-- [ ] Optimize controls & camera
+- [x] Optimize controls & camera
 - [ ] Test AI behaviors
 - [ ] Balance gameplay
 - [ ] Bug fixing

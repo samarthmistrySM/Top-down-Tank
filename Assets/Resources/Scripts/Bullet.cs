@@ -4,7 +4,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 20f;
     public float lifeTime = 3f;
-
+    public GameObject shooter;
     private Rigidbody rb;
 
     void Start()
@@ -16,9 +16,12 @@ public class Bullet : MonoBehaviour
         transform.Rotate(-90f, 0f, 0f, Space.Self);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        Health targetHealth = collision.gameObject.GetComponent<Health>();
+
+        if (other.gameObject == shooter) return;
+
+        Health targetHealth = other.gameObject.GetComponent<Health>();
         if (targetHealth != null)
         {
             targetHealth.TakeDamage(10)
@@ -27,5 +30,4 @@ public class Bullet : MonoBehaviour
 
         Destroy(gameObject);
     }
-
 }

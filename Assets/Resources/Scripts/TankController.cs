@@ -40,6 +40,20 @@ public class TankController : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(playerBulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(playerBulletPrefab, firePoint.position, firePoint.rotation);
+
+        Bullet b = bullet.GetComponent<Bullet>();
+        if (b != null)
+        {
+            b.shooter = gameObject;
+        }
+
+        Collider[] tankColliders = GetComponentsInChildren<Collider>();
+        Collider bulletCol = bullet.GetComponent<Collider>();
+        foreach (var col in tankColliders)
+        {
+            Physics.IgnoreCollision(bulletCol, col);
+        }
+
     }
 }
