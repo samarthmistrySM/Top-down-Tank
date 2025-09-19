@@ -129,6 +129,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   speed: 20
   lifeTime: 1
+  shooter: {fileID: 0}
+  bulletDamage: 20
 --- !u!54 &-1755136542680674713
 Rigidbody:
   m_ObjectHideFlags: 0

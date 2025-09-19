@@ -16,7 +16,7 @@ public class EnemyTankController : MonoBehaviour
 
     public GameObject enemyBulletPrefab;
     public Transform firePoint;
-    public float fireRate = 80f;
+    public float fireRate;
     private float nextFireTime = 0f;
 
     private enum EnemyState { Patrol, Chase }

@@ -24,14 +24,14 @@ Design and develop a 2D top-down tank game (3D models, top-down view) where the 
 ### 🧠 Gameplay Mechanics
 
 - [x] Implement collision detection (walls, bullets, tanks)
-- [ ] Implement score system for destroyed enemies
+- [x] Implement score system for destroyed enemies
 - [ ] Implement power-ups (health, rapid fire, etc.)
-- [ ] Implement level boundaries and obstacles
+- [x] Implement level boundaries and obstacles
 
 ### 🖼️ UI Elements
 
 - [x] Create health bar for player
-- [ ] Create score counter
+- [x] Create score counter
 - [ ] Create main menu
 - [ ] Create pause menu
 - [ ] Create game over screen

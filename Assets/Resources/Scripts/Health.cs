@@ -36,5 +36,9 @@ public class Health : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+        if (gameObject.CompareTag("Enemy"))
+        {
+            ScoreManager.Instance.AddScore(50);
+        }
     }
 }

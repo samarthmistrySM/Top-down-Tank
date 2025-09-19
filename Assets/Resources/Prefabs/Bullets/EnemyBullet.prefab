@@ -8,9 +8,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 118043290659291499, guid: 8811926f70bfd4d02ab64d21ac915368, type: 3}
+      propertyPath: bulletDamage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2199950117493403999, guid: 8811926f70bfd4d02ab64d21ac915368, type: 3}
       propertyPath: m_Name
-      value: EnemyBullet Variant
+      value: EnemyBullet
       objectReference: {fileID: 0}
     - target: {fileID: 3600082001877878878, guid: 8811926f70bfd4d02ab64d21ac915368, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'

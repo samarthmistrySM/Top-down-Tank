@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
     public float lifeTime = 3f;
     public GameObject shooter;
     private Rigidbody rb;
+    public int bulletDamage;
 
     void Start()
     {
@@ -18,16 +19,13 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject == shooter) return;
 
         Health targetHealth = other.gameObject.GetComponent<Health>();
         if (targetHealth != null)
         {
-            targetHealth.TakeDamage(10)
-    ;
+            targetHealth.TakeDamage(bulletDamage);
         }
-
         Destroy(gameObject);
     }
 }
